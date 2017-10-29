@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter PIN-code</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="main-block">
+    <form>
+        <input type="text" class="PIN-input js-pin-input" placeholder="Enter PIN-code">
+        <div>
+            <div class="number-row">
+                <input type="button" class="number-btn js-number" value="1">
+                <input type="button" class="number-btn js-number" value="2">
+                <input type="button" class="number-btn js-number" value="3">
+            </div>
+            <div class="number-row">
+                <input type="button" class="number-btn js-number" value="4">
+                <input type="button" class="number-btn js-number" value="5">
+                <input type="button" class="number-btn js-number" value="6">
+            </div>
+            <div class="number-row">
+                <input type="button" class="number-btn js-number" value="7">
+                <input type="button" class="number-btn js-number" value="8">
+                <input type="button" class="number-btn js-number" value="9">
+            </div>
+        </div>
+        <div class="func-btn-row">
+            <input type="button" class="cancel-btn js-cancel" value="CANCEL">
+            <input type="button" class="clear-btn js-clear" value="CLEAR">
+            <input type="submit" class="enter-btn js-enter" value="ENTER">
+        </div>
+        <div>
+            <input type="checkbox" checked="checked" class="js-show-hide">
+            <span class="show-hide-label">Show entered numbers</span>
+        </div>
+        <div>
+            <input type="checkbox" class="js-shake">
+            <span class="show-hide-label">Shake numbers</span>
+        </div>
+    </form>
+</div>
+</body>
+</html>

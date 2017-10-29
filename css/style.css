@@ -1,0 +1,42 @@
+.main-block{
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+}
+.number-btn{
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+}
+.PIN-input{
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.number-row{
+    padding: 5px 0;
+}
+.func-btn-row{
+    margin: 10px;
+}
+.cancel-btn, .clear-btn, .enter-btn{
+    font-size: 16px;
+    font-weight: bold;
+    width: 90px;
+    height: 40px;
+}
+.cancel-btn{
+    background: red;
+}
+.clear-btn{
+    background: yellow;
+}
+.enter-btn{
+    background: green;
+}
+.show-hide-label{
+    font-size: 16px;
+    font-family: Arial;
+}
